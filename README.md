@@ -77,7 +77,7 @@ This document provides detailed specifications and guidelines for using the `/ap
 
 ```json
 {
-    "code": "12345"
+    "code": "1234"
 }
 ```
 
@@ -102,7 +102,7 @@ Returns whether the verification code is valid. If valid, a token is also provid
 }
 ```
 
-### 2. Authorization API - POST /api/auth
+### 2. Authorization API - GET /api/auth
 
 #### Request Headers:
 
@@ -133,5 +133,4 @@ If authorized, the response will contain the username, quote, and photo. Otherwi
 ```
 
 ## License
-
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). See the [LICENSE](LICENSE) file for details.
